@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Node App</title>
+</head>
+
+<link rel="stylesheet" href="index.css">
+<div class="main">
+  <div class="form">
+    <body style="text-align: center;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 class="login">Login</h1>
+        <br>
+      <form method="post" action="/item/auth">
+          <label for="name">User Name:</label>
+          <input type="text" name="name"><br>
+          <br>
+
+          <label for="name">Password:</label>
+          &nbsp&nbsp
+          <input type="password" name="prop"><br>
+          <br><br>
+          <input type="submit" value="Login">
+      </form>
+      <br>
+      <br>
+
+
+      <h1 class="add">Add yourself to our Database</h1>
+      <br>
+      <form method="post" action="/item/addUser">
+          <label for="name">User Name:</label>
+          <input type="text" name="name"><br>
+          <br>
+          <label for="name">Password:</label>
+          &nbsp&nbsp
+          <input type="password" name="pass"><br>
+          <br><br>
+          <input type="submit" value="AddUser">
+      </form>
+      <br>
+      <br>
+
+      <h1 class="admin">Admin Login</h1>
+      <br>
+      <form method="post" action="/item/authAdmin">
+          <label for="name">User Name:</label>
+          <input type="text" name="name"><br>
+          <br>
+          <label for="name">Password:</label>
+          &nbsp&nbsp
+          <input type="password" name="prop"><br>
+          <br><br>
+          <input type="submit" value="Login">
+      </form>
+      </body>
+
+  </div>
+</div>
+
+
+
+</html>
